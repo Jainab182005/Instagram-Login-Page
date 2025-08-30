@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+	       
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 350px;
+      background: #926;
+      border: 1px solid #dbdbdb;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .container img {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+
+    .input-box {
+      width: 100%;
+      margin: 8px 0;
+    }
+
+    .input-box input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #dbdbdb;
+      background: #fafafa;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 10px;
+      margin-top: 12px;
+      background: #3897f0;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      color: #8e8e8e;
+      font-size: 13px;
+    }
+
+    .divider::before, .divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #dbdbdb;
+      margin: 0 10px;
+    }
+
+    .fb-login {
+      color: #385185;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .forgot {
+      margin-top: 15px;
+      font-size: 12px;
+    }
+
+    .signup-box {
+      width: 350px;
+      text-align: center;
+      border: 1px solid #dbdbdb;
+      padding: 20px;
+      background: #fff;
+      margin-top: 10px;
+    }
+
+    .signup-box a {
+      text-decoration: none;
+      color: #3897f0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="container">
+      <img src="C:\Users\Jainab Ali\OneDrive\Pictures\Screenshots\Screenshot 2025-08-30 182419.png" alt="Instagram Logo">
+      
+      <div class="input-box">
+        <input type="text" placeholder="Phone number, username, or email">
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password">
+      </div>
+      <button class="login-btn">Log In</button>
+
+      <div class="divider">OR</div>
+
+      <a href="#" class="fb-login">Log in with Facebook</a>
+      <div class="forgot"><a href="#">Forgot password?</a></div>
+    </div>
+
+    <div class="signup-box">
+      Don’t have an account? <a href="#">Sign up</a>
+    </div>
+  </div>
+</body>
+</html>
